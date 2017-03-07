@@ -1,0 +1,29 @@
+{
+  "name": "require-spy",
+  "version": "0.0.0",
+  "description": "Check if a given node module have been required",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "^9.0.0",
+    "tape": "^4.6.3"
+  },
+  "scripts": {
+    "test": "standard && node test/call-start.js && node test/require-start.js && node -r ./start test/pre-started.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/watson/require-spy.git"
+  },
+  "keywords": [
+    "require",
+    "module",
+    "test"
+  ],
+  "author": "Thomas Watson Steen <w@tson.dk> (https://twitter.com/wa7son)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/watson/require-spy/issues"
+  },
+  "homepage": "https://github.com/watson/require-spy#readme"
+}
