@@ -1,6 +1,6 @@
 {
   "name": "require-spy",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Check if a given node module have been required",
   "main": "index.js",
   "dependencies": {},
@@ -25,5 +25,9 @@
   "bugs": {
     "url": "https://github.com/watson/require-spy/issues"
   },
-  "homepage": "https://github.com/watson/require-spy#readme"
+  "homepage": "https://github.com/watson/require-spy#readme",
+  "coordinates": [
+    55.7014242,
+    12.548232
+  ]
 }
